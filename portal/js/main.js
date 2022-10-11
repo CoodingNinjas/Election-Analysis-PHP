@@ -1,1 +1,0 @@
-alert('Portal says "hello world", JavaScript is working');

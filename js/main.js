@@ -1,1 +1,0 @@
-alert('hello world, JavaScript is working');
