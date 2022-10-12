@@ -20,7 +20,7 @@
 </head>
 <body>
     <div class="div">
-        <header class="login-header">
+        <header class="signup-header">
             <div class="header-content">
                 <h1><span>Welcome Back,</span> <br> Login!</h1>
                 <img src="assets/triangle.svg">

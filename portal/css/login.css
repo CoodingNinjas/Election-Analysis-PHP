@@ -28,7 +28,7 @@ body {
     --Poppins: "Poppins", cursive;
 }
 
-.login-header {
+.signup-header {
     width: 70%;
     font-family: var(--Poppins);
     /* padding: 1rem 0; */
@@ -55,7 +55,7 @@ body {
     font-weight: bolder;
 }
 
-.login-header img {
+.signup-header img {
     height: 100px;
 }
 
