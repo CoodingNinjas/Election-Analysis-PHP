@@ -75,11 +75,13 @@ body {
 }
 
 .form-input input[type] {
-    padding: 1rem 5rem;
+    width: 50%;
+    padding: 1rem;
     margin: 1rem;
     border-radius: 1.3rem;
     outline: none;
     border: 1px solid black;
+    font-size: 1.2rem;
 }
 
 .form .link {
@@ -113,6 +115,7 @@ body {
 }
 
 .form input[type=submit] {
+    width: auto;
     padding: 1rem 5rem;
     border-radius: 3rem;
     margin: 2rem 0;
