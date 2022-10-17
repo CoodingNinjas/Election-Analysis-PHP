@@ -1,7 +1,7 @@
 <?php 
-    // session_start();
-    // include('config/dblink.php');
-    // $collect = new DB();
+    session_start();
+    include('config/dblink.php');
+    $collect = new DB();
 ?>
 <!DOCTYPE html>
 <html lang="en">
