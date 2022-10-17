@@ -95,7 +95,7 @@
     <!-- Code Starts Here -->
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"></script> -->
 
-    <div class="div">
+    <div class="registration">
         <header class="signup-header">
             <div class="header-content">
                 <h1><span>Hello,</span> <br> Sign up!</h1>

@@ -7,7 +7,7 @@
     scroll-behavior: smooth;
 }
 
-body {
+body{
     background-color: rgb(0, 0, 0);
     width: 100%;
     height: 100vh;
@@ -15,7 +15,7 @@ body {
     font-family: var(--Poppins);
 }
 
-.div {
+.registration{
     background-color: white;
     height: 100vh;
     max-width: 500px;
@@ -25,17 +25,17 @@ body {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.377);
 }
 
-:root {
+:root{
     --Poppins: "Poppins", cursive;
 }
 
-.signup-header {
+.registration .signup-header{
     width: 70%;
     font-family: var(--Poppins);
     /* padding: 1rem 0; */
 }
 
-.header-content {
+.registration .header-content{
     background: linear-gradient(#5AFF15, #00B712);
     box-shadow: 1px 8px 15px rgba(0, 0, 0, 0.253);
     padding: 2rem 4rem;
@@ -45,37 +45,37 @@ body {
     border-bottom-right-radius: 6rem;
 }
 
-.header-content span {
+.registration .header-content span{
     font-size: 1.5rem;
     font-weight: lighter;
 }
 
-.header-content h1 {
+.registration .header-content h1{
     font-size: 2.5rem;
     color: white;
     font-weight: bolder;
 }
 
-.signup-header img {
+.registration .signup-header img{
     height: 100px;
 }
 
-.main {
+.registration .main{
     width: 100%;
     margin: 2rem 0;
     height: 100%;
 }
 
-.form {
+.registration .form{
     margin: 0 2rem;
 }
 
-.form .form-input {
+.registration .form .form-input{
     align-items: center;
     text-align: center;
 }
 
-.form-input input {
+.registration .form-input input{
     padding: .9rem 3rem;
     margin: 1rem;
     border-radius: 1.3rem;
@@ -83,32 +83,32 @@ body {
     border: 1px solid black;
 }
 
-.form .form-check {
+.registration .form .form-check{
     margin-top: -2rem;
     margin-right: 6rem;
 }
 
-.form-check input[type=checkbox] {
+.registration .form-check input[type=checkbox]{
     width: 15px;
     height: 15px;
 }
 
-.form-check label {
+.registration .form-check label{
     font-size: 1.1rem;
     margin-top: 3rem;
     align-items: center;
     text-align: center;
 }
 
-.form-input input::placeholder {
+.registration .form-input input::placeholder{
     font-size: 1.2rem;
 }
 
-.form-input span {
+.registration .form-input span{
     font-size: 1.6rem;
 }
 
-.form input[type=submit] {
+.registration .form input[type=submit]{
     padding: 1rem 4rem;
     border-radius: 3rem;
     border: none;
@@ -117,14 +117,14 @@ body {
     background: linear-gradient(#5AFF15, #00B712);
 }
 
-.socials {
+.registration .socials{
     width: 100%;
     align-items: center;
     text-align: center;
     margin-top: 4rem;
 }
 
-.socials a {
+.registration .socials a{
     color: black;
     margin: 2rem;
     font-size: 1.6rem;
