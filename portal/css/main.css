@@ -15,6 +15,126 @@ body{
     font-family: var(--Poppins);
 }
 
+.login{
+    background-color: white;
+    height: 100vh;
+    max-width: 500px;
+    color: rgb(0, 0, 0);
+    margin: auto;
+    align-items: center;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.377);
+}
+
+.login .signup-header{
+    width: 70%;
+    font-family: var(--Poppins);
+    /* padding: 1rem 0; */
+}
+
+.login .header-content{
+    background: linear-gradient(#5AFF15, #00B712);
+    box-shadow: 1px 8px 15px rgba(0, 0, 0, 0.253);
+    padding: 2rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    border-top-right-radius: 6rem;
+    border-bottom-right-radius: 6rem;
+}
+
+.login .header-content span{
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+.login .header-content h1{
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bolder;
+}
+
+.login .signup-header img{
+    height: 100px;
+}
+
+.login .main{
+    width: 100%;
+    margin: 2rem 0;
+    height: 100%;
+}
+
+.login .form{
+    padding: 9rem 0;
+}
+
+.login .form .form-input{
+    align-items: center;
+    text-align: center;
+}
+
+.login .form-input input[type]{
+    width: 50%;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1.3rem;
+    outline: none;
+    border: 1px solid black;
+    font-size: 1.2rem;
+}
+
+.login .form .link{
+    display: flex;
+    justify-content: center;
+}
+
+.login .form .link a{
+    color: black;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.login .form-input input::placeholder{
+    font-size: 1.2rem;
+}
+
+.login .form-input span{
+    font-size: 1.6rem;
+}
+
+.login .form .form-check{
+    margin-top: -2rem;
+    margin-right: 6rem;
+}
+
+.login .form-check label{
+    font-size: 1.1rem;
+    margin-top: 2.1rem;
+    font-weight: lighter;
+}
+
+.login .form input[type=submit]{
+    width: auto;
+    padding: 1rem 5rem;
+    border-radius: 3rem;
+    margin: 2rem 0;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(#5AFF15, #00B712);
+}
+
+.login .socials{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.login .socials a{
+    color: black;
+    margin: 2rem;
+    font-size: 1.6rem;
+}
+
 .registration{
     background-color: white;
     height: 100vh;
