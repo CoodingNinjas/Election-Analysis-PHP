@@ -53,9 +53,9 @@
                         $_SESSION['date'] = $date;
 
                         if($_SESSION['role'] == '1'){
-                            echo '<script> window.location="admin_dashboard"; </script>';
+                            echo '<script> window.location="admin/dashboard"; </script>';
                         }else{
-                            echo '<script> window.location="dashboard"; </script>';
+                            echo '<script> window.location="user/dashboard"; </script>';
                         }
                     }
                 }else{

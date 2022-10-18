@@ -6,17 +6,18 @@
     $url = $_GET['url'];
     $url = rtrim($url, '/');
     $url = explode('/', $url);
+
     if ($url[0] == ""){
         include('login.php');
     } 
 
-    //end of client portal info
+    $filePath = $url[0];
 
-    if(file_exists('views/' . $url[0] . '.php')){
-        $page = 'views/' . $url[0] . '.php';
+    if(file_exists("views/$filePath/" . $url[1] . '.php')){
+        $page = "views/$filePath/" . $url[1] . '.php';
         include('main.php');
     }
-    elseif(!file_exists('views/' . $url[0] . '.php') && $url[0] != "") {
+    elseif(!file_exists("views/$filePath/" . $url[1] . '.php') && $url[0] != "") {
         include("404.php");
     }
 
