@@ -77,7 +77,7 @@
         <main class="main">
             <form class="form" action="login.php" method="POST">
                 <div class="form-input">
-                    <input type="email" id="email" name="email" placeholder="email" value="<?php echo $_SESSION['e']; ?>">
+                    <input type="email" id="email" name="email" placeholder="email">
                     <span><i class="fas fa-envelope"></i></span>
                     <p><?php echo $_SESSION['email']; ?></p>
                 </div>

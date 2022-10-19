@@ -1,4 +1,5 @@
 /* Registration */
+
 @import url(./font.css);
 * {
     margin: 0;
@@ -7,7 +8,7 @@
     scroll-behavior: smooth;
 }
 
-body{
+body {
     background-color: rgb(0, 0, 0);
     width: 100%;
     height: 100vh;
@@ -15,7 +16,7 @@ body{
     font-family: var(--Poppins);
 }
 
-.login{
+.login {
     background-color: white;
     height: 100vh;
     max-width: 500px;
@@ -25,13 +26,13 @@ body{
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.377);
 }
 
-.login .signup-header{
+.login .signup-header {
     width: 70%;
     font-family: var(--Poppins);
     /* padding: 1rem 0; */
 }
 
-.login .header-content{
+.login .header-content {
     background: linear-gradient(#5AFF15, #00B712);
     box-shadow: 1px 8px 15px rgba(0, 0, 0, 0.253);
     padding: 2rem 4rem;
@@ -41,37 +42,37 @@ body{
     border-bottom-right-radius: 6rem;
 }
 
-.login .header-content span{
+.login .header-content span {
     font-size: 1.5rem;
     font-weight: lighter;
 }
 
-.login .header-content h1{
+.login .header-content h1 {
     font-size: 2.5rem;
     color: white;
     font-weight: bolder;
 }
 
-.login .signup-header img{
+.login .signup-header img {
     height: 100px;
 }
 
-.login .main{
+.login .main {
     width: 100%;
     margin: 2rem 0;
     height: 100%;
 }
 
-.login .form{
+.login .form {
     padding: 9rem 0;
 }
 
-.login .form .form-input{
+.login .form .form-input {
     align-items: center;
     text-align: center;
 }
 
-.login .form-input input[type]{
+.login .form-input input[type] {
     width: 50%;
     padding: 1rem;
     margin: 1rem;
@@ -81,37 +82,37 @@ body{
     font-size: 1.2rem;
 }
 
-.login .form .link{
+.login .form .link {
     display: flex;
     justify-content: center;
 }
 
-.login .form .link a{
+.login .form .link a {
     color: black;
     font-size: 1.1rem;
     text-decoration: none;
 }
 
-.login .form-input input::placeholder{
+.login .form-input input::placeholder {
     font-size: 1.2rem;
 }
 
-.login .form-input span{
+.login .form-input span {
     font-size: 1.6rem;
 }
 
-.login .form .form-check{
+.login .form .form-check {
     margin-top: -2rem;
     margin-right: 6rem;
 }
 
-.login .form-check label{
+.login .form-check label {
     font-size: 1.1rem;
     margin-top: 2.1rem;
     font-weight: lighter;
 }
 
-.login .form input[type=submit]{
+.login .form input[type=submit] {
     width: auto;
     padding: 1rem 5rem;
     border-radius: 3rem;
@@ -122,20 +123,20 @@ body{
     background: linear-gradient(#5AFF15, #00B712);
 }
 
-.login .socials{
+.login .socials {
     width: 100%;
     align-items: center;
     text-align: center;
     margin-top: 3rem;
 }
 
-.login .socials a{
+.login .socials a {
     color: black;
     margin: 2rem;
     font-size: 1.6rem;
 }
 
-.registration{
+.registration {
     background-color: white;
     height: 100vh;
     max-width: 500px;
@@ -145,17 +146,17 @@ body{
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.377);
 }
 
-:root{
+:root {
     --Poppins: "Poppins", cursive;
 }
 
-.registration .signup-header{
+.registration .signup-header {
     width: 70%;
     font-family: var(--Poppins);
     /* padding: 1rem 0; */
 }
 
-.registration .header-content{
+.registration .header-content {
     background: linear-gradient(#5AFF15, #00B712);
     box-shadow: 1px 8px 15px rgba(0, 0, 0, 0.253);
     padding: 2rem 4rem;
@@ -165,88 +166,105 @@ body{
     border-bottom-right-radius: 6rem;
 }
 
-.registration .header-content span{
+.registration .header-content span {
     font-size: 1.5rem;
     font-weight: lighter;
 }
 
-.registration .header-content h1{
+.registration .header-content h1 {
     font-size: 2.5rem;
     color: white;
     font-weight: bolder;
 }
 
-.registration .signup-header img{
+.registration .signup-header img {
     height: 100px;
 }
 
-.registration .main{
+.registration .main {
     width: 100%;
     margin: 2rem 0;
     height: 100%;
 }
 
-.registration .form{
+.registration .form {
     margin: 0 2rem;
 }
 
-.registration .form .form-input{
+.registration .form .form-input {
     align-items: center;
     text-align: center;
 }
 
-.registration .form-input input{
-    padding: .9rem 3rem;
+.registration .form-input input {
+    /* padding: .9rem 3rem;
+    margin: 1rem;
+    border-radius: 1.3rem;
+    outline: none;
+    border: 1px solid black; */
+    width: 50%;
+    padding: 1rem;
     margin: 1rem;
     border-radius: 1.3rem;
     outline: none;
     border: 1px solid black;
+    font-size: 1.2rem;
 }
 
-.registration .form .form-check{
+.registration .form .form-check {
     margin-top: -2rem;
     margin-right: 6rem;
 }
 
-.registration .form-check input[type=checkbox]{
+.registration .form-check input[type=checkbox] {
     width: 15px;
     height: 15px;
 }
 
-.registration .form-check label{
+.registration .form-check label {
     font-size: 1.1rem;
     margin-top: 3rem;
     align-items: center;
     text-align: center;
 }
 
-.registration .form-input input::placeholder{
+.registration .form-input input::placeholder {
     font-size: 1.2rem;
 }
 
-.registration .form-input span{
+.registration .form-input span {
     font-size: 1.6rem;
 }
 
-.registration .form input[type=submit]{
-    padding: 1rem 4rem;
+.registration .form input[type=submit] {
+    /* padding: 1rem 4rem;
     border-radius: 3rem;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(#5AFF15, #00B712); */
+    width: auto;
+    padding: 1rem 5rem;
+    border-radius: 3rem;
+    margin: 2rem 0;
     border: none;
     color: white;
     font-weight: bold;
     background: linear-gradient(#5AFF15, #00B712);
 }
 
-.registration .socials{
+.registration .socials {
     width: 100%;
     align-items: center;
     text-align: center;
     margin-top: 4rem;
 }
 
-.registration .socials a{
+.registration .socials a {
     color: black;
     margin: 2rem;
     font-size: 1.6rem;
 }
+
+
 /* End of Registration */

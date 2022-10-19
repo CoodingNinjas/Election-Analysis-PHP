@@ -105,17 +105,17 @@
         <main class="main">
             <form class="form" action="registration.php" method="POST">
                 <div class="form-input">
-                    <input type="text" id="username" name="username" value="<?php echo $_SESSION['uname']; ?>" placeholder="username">
+                    <input type="text" id="username" name="username"  placeholder="username">
                     <span><i class="fas fa-user"></i></span>
                     <p><?php echo $_SESSION['username']; ?></p>
                 </div>
                 <div class="form-input">
-                    <input type="email" id="email" name="email" value="<?php echo $_SESSION['e']; ?>" placeholder="email">
+                    <input type="email" id="email" name="email"  placeholder="email">
                     <span><i class="fas fa-envelope"></i></span>
                     <p><?php echo $_SESSION['email']; ?></p>
                 </div>
                 <div class="form-input">
-                    <input type="tel" id="tel" name="tel" value="<?php echo $_SESSION['tel']; ?>" placeholder="phone">
+                    <input type="tel" id="tel" name="tel"  placeholder="phone">
                     <span><i class="fas fa-phone-alt"></i></span>
                     <p><?php echo $_SESSION['number']; ?></p>
                 </div>
